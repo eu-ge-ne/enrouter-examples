@@ -28,8 +28,8 @@ importers:
         specifier: ^4.3.3
         version: 4.3.3(vite@5.4.10)
       enrouter:
-        specifier: ^0.0.13
-        version: 0.0.13
+        specifier: ^0.0.14
+        version: 0.0.14
       eslint:
         specifier: ^9.13.0
         version: 9.13.0
@@ -634,8 +634,8 @@ packages:
   electron-to-chromium@1.5.45:
     resolution: {integrity: sha512-vOzZS6uZwhhbkZbcRyiy99Wg+pYFV5hk+5YaECvx0+Z31NR3Tt5zS6dze2OepT6PCTzVzT0dIJItti+uAW5zmw==}
 
-  enrouter@0.0.13:
-    resolution: {integrity: sha512-LnxRCJiPz1Bhpl31URJShWJ0eDLjX+5ubq558AaqXZ5yG9sOCppLTM8KznQqa0IJJpifP/W6H6q2PSPGuN0Ztw==}
+  enrouter@0.0.14:
+    resolution: {integrity: sha512-UlPaIXbAFjlMTapCCH01GIL5D9XCxgbq6S+H67KoodfIMek2jQBDQzcsM0pP3bvvSVjh6jLDIIw9OrUSHJ2LFw==}
 
   esbuild@0.21.5:
     resolution: {integrity: sha512-mg3OPMV4hXywwpoDxu3Qda5xCKQi+vCTZq8S9J/EpkhB2HzKXq4SNFZE3+NK93JYxc8VMSep+lOUSC/RVKaBqw==}
@@ -1634,7 +1634,7 @@ snapshots:
 
   electron-to-chromium@1.5.45: {}
 
-  enrouter@0.0.13: {}
+  enrouter@0.0.14: {}
 
   esbuild@0.21.5:
     optionalDependencies:
