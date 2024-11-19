@@ -5,11 +5,11 @@ import { matchLocation, BrowserRouter } from "enrouter";
 import "./index.css";
 
 async function main() {
-  const match = await matchLocation(window.location.pathname);
+  const matches = await matchLocation(window.location.pathname);
 
   createRoot(document.getElementById("root")!).render(
     <StrictMode>
-      <BrowserRouter match={match} />
+      <BrowserRouter matches={matches} />
     </StrictMode>
   );
 }
